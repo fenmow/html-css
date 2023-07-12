@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'transformers';
+            src: url(fonts/Transformers\ Movie.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype(otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: 'transformers', Times, serif;
+        }
+
+        h1 {
+            font-family: 'transformers', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transformers</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus dolorum obcaecati quia optio enim ex, autem modi pariatur! Sunt quia reprehenderit voluptates ab vero. Quidem tempora nobis nulla alias sequi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur blanditiis, repellendus quibusdam nobis quia eaque praesentium est numquam, modi ratione totam. Distinctio rem perferendis aliquid ratione libero nemo esse placeat?</p>
+</body>
+</html>

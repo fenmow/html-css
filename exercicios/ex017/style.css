@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    /*font-family: serif; irá arranjar uma fonte serifada*/
+    /*font-family: sans-serif; irá arranjar uma fonte não serifada*/
+    /*font-family: monospace; irá arranjar uma fonte monoespaçada*/
+    /*
+    font-family: monospace;
+    Medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    medidas Relativas
+    em, ex, rem, vw, vh, %
+    16 px geralmente = 1em
+    */
+    font-size: 1.3em;
+    font-weight: normal;
+    /*de 100 até 900 são variações numéricas de peso*/
+    /* lighter normal bold bolder | variações de peso*/
+    text-decoration: underline;
+    font-style: italic;
+}
+
+h1 {
+    /* shorthand font
+    serve para colocar todas as configurações de fonte
+    em um mesmo seletor, em apenas uma linha
+    - font-style -> font-weight -> font-size -> font-family
+    */
+    font: italic bold 3em 'Work Sans', sans-serif;
+}
+
+h2 {
+    font: bold 2em 'Work Sans';
+}
+/*
+p {
+    font-family: fantasy;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;  irá tentar a Arial, se não conseguir, irá tentar uma por uma
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+*/

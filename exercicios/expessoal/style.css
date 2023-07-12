@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #25E652, #253FE6 75%);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 370px;
+    height: 280px;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    color: white;
+    margin-right: 125px;
+}
+
+input {
+    height: 35px;
+    margin-bottom: 8px;
+    width: 205px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+button {
+    background-color: #199BE6;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}

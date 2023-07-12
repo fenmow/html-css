@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /*box-level*/
+             /*transforma um elemento em inline*/
+            height: 300px;
+            width: 300px;
+            background-color: lightgray;
+            /* Borda não-simplificada
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            */
+            /*Simplificando a borda com ShortHand*/
+            border: 10px solid darkslategray;
+            /* padding não-simplificado
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+            /*Simplificando o padding*/
+            padding: 10px; /*cima direita baixo e esquerda*/
+            /*padding 10px 20px    10px em cima e embaixo, 20px na direita e na esquerda*/
+
+            /*Simplificando o margin*/
+            margin: 20px auto 40px auto;
+
+            /*margin não-simplificado
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;*/
+
+            /*Simplificando o outline*/
+            outline: 5px dashed salmon;
+
+            /*outline não-simplificado
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;*/
+        }
+
+        a { /*inline-level*/
+            display: block; /*transforma um elemento em block*/
+            border-width: 10px;
+            border-style: groove;
+            /*valores para style
+                dashed
+                solid
+                dotted
+                double
+                groove
+            */
+            border-color: red;
+            padding-top: 10px; /*aumentando o top o texto NÃO desce e sim o topo que sobe*/
+            padding-right: 10px;
+            padding-bottom: 10px;/*aumentando o bottom o texto NÃO sobe e sim o bottom que desce*/
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
