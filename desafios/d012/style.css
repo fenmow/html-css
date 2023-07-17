@@ -91,7 +91,7 @@ footer {
 }
 
 footer span {
-  font-size: 3.5vw;
+  font-size: 25px;
   font-weight: lighter;
 }
 
@@ -103,4 +103,10 @@ footer span a {
 
 footer span a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  footer span {
+    font-size: 3.4vw;
+  }
 }
